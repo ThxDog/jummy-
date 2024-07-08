@@ -2,40 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
+      "src": "Alickshundra Occasional-Cortex - Eet Ze Rich.html",
       "use": "@vercel/static"
     },
     {
-      "src": "css/styles.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "js/scripts.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "images/logo.png",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "images/background.jpg",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "data/data.json",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "fonts/custom-font.woff",
+      "src": "Alickshundra Occasional-Cortex - Eet Ze Rich_files/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/css/(.*)", "dest": "/css/$1" },
-    { "src": "/js/(.*)", "dest": "/js/$1" },
-    { "src": "/images/(.*)", "dest": "/images/$1" },
-    { "src": "/data/(.*)", "dest": "/data/$1" },
-    { "src": "/fonts/(.*)", "dest": "/fonts/$1" }
+    {
+      "src": "/",
+      "dest": "/Alickshundra Occasional-Cortex - Eet Ze Rich.html"
+    },
+    {
+      "src": "/Alickshundra Occasional-Cortex - Eet Ze Rich_files/(.*)",
+      "dest": "/Alickshundra Occasional-Cortex - Eet Ze Rich_files/$1"
+    }
   ]
 }
